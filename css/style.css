@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#main{
+    margin: 0;
+    background-image: url(../img/pattern.png);
+    background-color: cornflowerblue;
+    background-position: center;
+    background-attachment: local;
+}
+
+img{
+    padding-right: 90%;
+    text-align: center;
+}
+
+p{
+    color: gray;
+}
+p > span{
+    color: blue;
+}
+
+#tim{
+    padding-right: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+}
+
+#tim > img{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 89px;
+}
+
+p > span {
+    background-color: yellow;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+table{
+    background-color: aquamarine;
+    
+}
+
+footer figure {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%; 
+    table-layout: fixed; 
+}
+
+table th, table td {
+    width: 100%;
+}
