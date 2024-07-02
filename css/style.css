@@ -1,0 +1,31 @@
+/* Default layout */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+#container{
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: blue;
+    height: auto;
+}
+
+/* header */
+header{
+    background-image: url('../img/pattern.png');
+    background-color: steelblue;
+    height: 200px;
+}
+
+figure{
+    margin: 0;
+}
+
+header figure img{
+    width: 250px;
+    height: 200px;
+}
+
