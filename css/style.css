@@ -3,29 +3,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Utilities */
 #container{
     max-width: 1080px;
     margin: 0 auto;
-    background-color: blue;
     height: auto;
 }
 
 /* header */
-header{
+header section{
     background-image: url('../img/pattern.png');
     background-color: steelblue;
     height: 200px;
 }
 
-figure{
-    margin: 0;
+#logo figure{
+    margin: 0; 
+    line-height: 200px;
 }
 
-header figure img{
+header section figure img{
     width: 250px;
     height: 200px;
+    vertical-align: middle;
 }
+
+/* header article */
+#page-title{
+    margin-top: 35px;
+}
+
+#page-title h1{
+    font-size: 39px;
+    font-weight: bolder;
+
+}
+.gray{
+    color: gray;
+}
+
+address{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+address span{
+   color:skyblue;
+}
+
+ figure{
+    margin-top: 25px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+
+
 
